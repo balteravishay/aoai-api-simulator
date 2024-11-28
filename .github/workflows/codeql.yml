@@ -19,7 +19,9 @@ on:
     branches: [ "main" ]
   schedule:
     - cron: '34 19 * * 6'
-
+permissions:
+  contents: read
+  
 jobs:
   analyze:
     name: Analyze (${{ matrix.language }})

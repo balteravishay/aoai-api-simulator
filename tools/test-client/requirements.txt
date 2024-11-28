@@ -1,2 +1,2 @@
-openai==1.16.1
+openai==1.55.3
 azure-ai-formrecognizer==3.3.2

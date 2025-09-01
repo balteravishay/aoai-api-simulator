@@ -17,7 +17,7 @@ jobs:
         fetch-depth: 0 # get all branches so that we can check out main to compare lint scores
 
     - name: Run make ci-build in dev container
-      uses: devcontainers/ci@a56d055efecd725e8cfe370543b6071b79989cc8
+      uses: devcontainers/ci@8bf61b26e9c3a98f69cb6ce2f88d24ff59b785c6
       with:    
         # TODO - cache dev container image
         push: never
